@@ -5,5 +5,5 @@ A brief summary of my academic history
 * BSc (Hons) Natural Science - The Open University - 2010-2014, supervised by Mary Gruner
 
 
-<a href="vivaksoni.github.io/_pages/Vivak_Soni_CV.pdf" target="_blank">My full CV is available in pdf format.</a>
+<a href="Vivak_Soni_CV.pdf" target="_blank">My full CV is available in pdf format.</a>
 
