@@ -7,6 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<h3>Thank you for visiting my website!</h3>
+<h2>Thank you for visiting my website!</h2>
 
 If you'd like to contact me, my email address is v.soni@sussex.ac.uk
