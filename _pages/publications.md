@@ -1,4 +1,5 @@
-Papers in preparation:
+Papers in preparation
+======
 
 1. Vivak Soni, Michiel Vos, Adam Eyre-Walker, “Evidence of widespread low frequency balancing selection in humans.”
 
