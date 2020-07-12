@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Home"
-    url: /home/
+    url: https://vivaksoni.github.io/
     
   - title: "Research"
-    url: /research/
+    url: https://vivaksoni.github.io/_pages/research/
 
   - title: "CV"
-    url: /cv/    
+    url: https://vivaksoni.github.io/_pages/cv/    
 
   - title: "Publications"
-    url: /publications/
+    url: https://vivaksoni.github.io/_pages/publications/
