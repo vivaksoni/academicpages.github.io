@@ -1,14 +1,3 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
-
 A brief summary of my academic history
 ======
 * PhD Population Genetics - University of Sussex - 2017-present (expected finish January 2021), supervised by Adam Eyre-Walker
