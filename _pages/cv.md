@@ -1,9 +1,10 @@
-A brief summary of my academic history
-======
+<h2>A brief summary of my academic history</h2>
+
+<br>
 * PhD Population Genetics - University of Sussex - 2017-present (expected finish January 2021), supervised by Adam Eyre-Walker
-
+<br>
 * MSc Bioinformatics - Imperial College, London - 2015-2016, supervised by Tim Barraclough
-
+<br>
 * BSc (Hons) Natural Science - The Open University - 2010-2014, supervised by Mary Gruner
 
 
