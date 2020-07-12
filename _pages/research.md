@@ -22,14 +22,33 @@ genomic localities, but the overall frequency ofbalancing selection has yet to b
 by identifying polymorphisms shared between two species. These studies have utilised the fact that two speciesare extremely unlikely to share a neutral polymorphism (i.e. they 
 are sufficiently divergent that all polymorphism that waspresent in the ancestor of the two species will have gone to fixation in at least one of the species). This makes these 
 tests weak because balancing selection must persist for a long time. Together with our collaborator Michiel Vos at the University of Exeter, we present a simple solution that 
-allows one to use closely related species or populations.  have developed a new method to detect balancing selection. Neutral polymorphisms are used to inform us what to expect 
-under neutrality by comparing the number of polymorphisms shared between two populations, at putatively functional sites with those at putatively neutral sites. Through simulations we have proven that our statistic has power to detect balancing selection. We have applied this statistic to human population genetic data taken from the 1000 genome project. Although we detect balancing selection at low frequencies within humans, the evidence is weak due to the confounding effects of human demographic history. Nature can be 
-frustrating at times!
+allows one to use closely related species or populations. Neutral polymorphisms are used to inform us as to what to expect 
+under neutrality by comparing the number of polymorphisms shared between two populations, at putatively functional sites with those at putatively neutral sites. 
+Through simulations we have proven that our statistic has power to detect balancing selection, as can be seen in figure 1.
 
  <figure>
   <img src="https://vivaksoni.github.io/_pages/Z.png" alt="Z" style="width:100%">
   <figcaption>Fig.1 - Simulating our statistic under neutrality (blue), with deleterious mutations introduced (orange), and with neutral, deleterious variation, and balancing selection. tMRCA is measured in N generations, where N is the population size. A log(Z) value of greater than 0 indicates a greater proportion of shared non-synonymous polymorphisms than private non-synonymous polymorphism, which is our signal of balancing selection. Note that although balancing selection elevates log(Z), this is in the absence of complex demography</figcaption>
 </figure> 
 
+We have applied this statistic to human population genetic data taken from the 1000 genome project. We simulated under the Gravel et. al (PNAS, 2011) to generate our null model, and compared this to our observed data. Although we detect balancing selection at low frequencies within humans, the evidence is weak due to the confounding effects of human demographic history because population contraction (for instance via bottlenecks) depresses our statistic. Nature can be 
+frustrating at times!
 
+<h3>Does the age of a protein-coding gene constrain its evolution?</h3>
+
+How adaptation proceeds in space and time has long been a focus of study for molecular geneticists. The visualisation of fitness as a multi-dimensional landscape was first conceived of by Sewall Wright (Proceedings of the Sixth International Congress on Genetics, 1932) and fitness (or adaptive) landscapes have become a cornerstone of the study of adaptation in population and quantitative genetics. If genes adapt towards local fitness optima over time, one can hypothesise that younger genes are further away from fitness optima and therefore might be evolving more rapidly towards optima than older genes (that are already closer to an optimum).
+
+ <figure>
+  <img src="https://vivaksoni.github.io/_pages/adaptiveLandscape.png" alt="adaptiveLandscape" style="width:100%">
+  <figcaption>Fig.2 - An example of an adaptive landscape. The mean fitness of the population is determined by the frequencies of allele A and allele B within the population.</figcaption>
+</figure>
+
+In this project we have correlated the rate of adaptive evolution with various gene age, whilst accounting for potentially confounding factors, including function, recombination rate, solvent accessibility, and intrinsic protein disorder. Our collaborators Ana Filipa Moutinho and Julien Duthiel at the Max Planck Institute for Evolutionary Biology have found a significant correlation between gene age and rates of adaptive evolution in Drosophila melanogaster and Arabidopsis thaliana.
+
+ <figure>
+  <img src="https://vivaksoni.github.io/_pages/geneAges.png" alt="geneAges" style="width:100%">
+  <figcaption>Fig.3 - Relationship between the rate of protein evolution (ω), non-adaptive non-synonymous substitutions (ωNA), and adaptive non-synonymous substitutions (ωA) and log (gene age). Error bars denote for the 95% confidence interval for each category, computed over 100 bootstrap replicates. Though it doesn't look like it, the correlation between the rate of adaptive evolution and gene age is significant, with a τ value of -0.4, obtained using a Kendall's rank correltion.</figcaption>
+</figure> 
+
+Although the correlation between gene age and rates of adaptive evolution is significant, we find that this correlation disappears when we account for confounding factors.
 
