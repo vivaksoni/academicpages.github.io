@@ -27,8 +27,8 @@ under neutrality by comparing the number of polymorphisms shared between two pop
 frustrating at times!
 
  <figure>
-  <img src="Z.png" alt="Z" style="width:100%">
-  <figcaption>Fig.1 - Simulating our statistic under neutrality (blue), with deleterious mutations introduced (orange), and with neutral, deleterious variation, and balancing selection. tMRCA is measured in N generations, where N is the population size. A log(Z) value of greater than 0 indicates a greater proportion of shared non-synonymous polymorphisms than private non-synonymous polymorphism, which is our signal of balancing selection.</figcaption>
+  <img src="https://vivaksoni.github.io/_pages/Z.png" alt="Z" style="width:100%">
+  <figcaption>Fig.1 - Simulating our statistic under neutrality (blue), with deleterious mutations introduced (orange), and with neutral, deleterious variation, and balancing selection. tMRCA is measured in N generations, where N is the population size. A log(Z) value of greater than 0 indicates a greater proportion of shared non-synonymous polymorphisms than private non-synonymous polymorphism, which is our signal of balancing selection. Note that although balancing selection elevates log(Z), this is in the absence of complex demography</figcaption>
 </figure> 
 
 
