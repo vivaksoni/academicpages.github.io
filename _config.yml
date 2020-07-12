@@ -177,16 +177,16 @@ kramdown:
 collections:
   home:
     output: true
-    permalink: /:collection/:path/
+    permalink: https://vivaksoni.github.io/
   research:
     output: true
-    permalink: /:collection/:path/
+    permalink: https://vivaksoni.github.io/_pages/research/
   cv:
     output: true
-    permalink: /:collection/:path/
+    permalink: https://vivaksoni.github.io/_pages/cv/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: https://vivaksoni.github.io/_pages/publications/
 
 
 # Defaults
@@ -211,7 +211,7 @@ defaults:
       author_profile: true
   # _home
   - scope:
-      path: ""
+      path: https://vivaksoni.github.io/
       type: home
     values:
       layout: single
@@ -220,7 +220,7 @@ defaults:
       comments: true
   # _research
   - scope:
-      path: ""
+      path: https://vivaksoni.github.io/_pages/research/
       type: research
     values:
       layout: single
@@ -229,7 +229,7 @@ defaults:
       comments: true
   # _cv
   - scope:
-      path: ""
+      path: https://vivaksoni.github.io/_pages/cv/
       type: cv
     values:
       layout: single
@@ -238,7 +238,7 @@ defaults:
       comment: true
   # _publications
   - scope:
-      path: ""
+      path: https://vivaksoni.github.io/_pages/publications/
       type: publications
     values:
       layout: talk
