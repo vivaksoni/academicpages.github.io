@@ -21,7 +21,8 @@ The role that balancing selection plays in the maintenance of genetic variation 
 genomic localities, but the overall frequency ofbalancing selection has yet to be quantified. Recent studies have identified loci under long term balancing selection in primates
 by identifying polymorphisms shared between two species. These studies have utilised the fact that two speciesare extremely unlikely to share a neutral polymorphism (i.e. they 
 are sufficiently divergent that all polymorphism that waspresent in the ancestor of the two species will have gone to fixation in at least one of the species). This makes these 
-tests weak because balancing selection must persist for a long time. Together with our collaborator Michiel Vos at the University of Exeter, we present a simple solution that 
+tests weak because balancing selection must persist for a long time. <br />
+Together with our collaborator Michiel Vos at the University of Exeter, we present a simple solution that 
 allows one to use closely related species or populations. Neutral polymorphisms are used to inform us as to what to expect 
 under neutrality by comparing the number of polymorphisms shared between two populations, at putatively functional sites with those at putatively neutral sites. 
 Through simulations we have proven that our statistic has power to detect balancing selection, as can be seen in figure 1.
@@ -46,7 +47,7 @@ How adaptation proceeds in space and time has long been a focus of study for mol
 In this project we have correlated the rate of adaptive evolution with various gene age, whilst accounting for potentially confounding factors, including function, recombination rate, solvent accessibility, and intrinsic protein disorder. Our collaborators Ana Filipa Moutinho and Julien Duthiel at the Max Planck Institute for Evolutionary Biology have found a significant correlation between gene age and rates of adaptive evolution in Drosophila melanogaster and Arabidopsis thaliana.
 
  <figure>
-  <img src="https://vivaksoni.github.io/_pages/geneAges.png" alt="geneAges" style="width:100%">
+  <img src="https://vivaksoni.github.io/_pages/geneAges.PNG" alt="geneAges" style="width:100%">
   <figcaption>Fig.3 - Relationship between the rate of protein evolution (ω), non-adaptive non-synonymous substitutions (ωNA), and adaptive non-synonymous substitutions (ωA) and log (gene age). Error bars denote for the 95% confidence interval for each category, computed over 100 bootstrap replicates. Though it doesn't look like it, the correlation between the rate of adaptive evolution and gene age is significant, with a τ value of -0.4, obtained using a Kendall's rank correltion.</figcaption>
 </figure> 
 
