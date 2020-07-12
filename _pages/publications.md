@@ -5,12 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Papers in preparation:
 
-{% include base_path %}
+1. Vivak Soni, Michiel Vos, Adam Eyre-Walker, “Evidence of widespread low frequency balancing selection in humans.”
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+2. Ana Filipa Moutinho, Vivak Soni, Julien Duthiel, Adam Eyre-Walker, “Does the age of a protein-coding gene constrain its evolution?”
+
+3. Vivak Soni & Adam Eyre-Walker, “Estimation of rates of adaptive evolution across GO categories.”
+
