@@ -177,7 +177,7 @@ kramdown:
 collections:
   home:
     output: true
-    permalink: https://vivaksoni.github.io/
+    permalink: https://vivaksoni.github.io/_pages/about/
   research:
     output: true
     permalink: https://vivaksoni.github.io/_pages/research/
