@@ -9,11 +9,14 @@ The fundamental forces of evolution are mutation, genetic drift, gene flow and n
 I have primarily focussed on developing and utilising methods to detect natural selection in humans using DNA sequence data. I am coming towards the end of what has been an
 incredibly rewarding time at Sussex and am on the lookout for post-doc positions in suitable labs. Pre-prints and publications will be available soon.
 
+<br />
 
 <h2>Current Projects</h2>
 
 I will briefly introduce the four projects I have been working on during my PhD. These summaries barely scratch the surface of the methodologies used and the results obtained so
 please do get in touch if you'd like further information about my research.
+
+<br />
 
 <h3>A new method to detect balancing selection</h3>
  
@@ -35,6 +38,7 @@ Through simulations we have proven that our statistic has power to detect balanc
 
 We have applied this statistic to human population genetic data taken from the 1000 genome project. We simulated under the Gravel et. al (PNAS, 2011) to generate our null model, and compared this to our observed data. Although we detect balancing selection at low frequencies within humans, the evidence is weak due to the confounding effects of human demographic history because population contraction (for instance via bottlenecks) depresses our statistic. Nature can be 
 frustrating at times!
+
 <br />
 
 <h3>Does the age of a protein-coding gene constrain its evolution?</h3>
@@ -67,7 +71,6 @@ Going very much hand in hand with the gene ages project discussed above, we have
 </figure> 
 
 To resolve whether the variation we see in rates of adaptive evolution between GO categories is mostly along the VIP/non-VIP axis we can estimate the error variance across both axes (VIP/nonVIP and each GO category). For each VIP and non-VIP GO category we randomly assigned polymorphisms and substitutions to two groups. We estimated the rate of adaptive evolution for each of these four groups: VIP group 1; VIP group 2; non-VIP group 1; and non-VIP group 2 and estimated the error variance both with and without the interaction term. In both instances the error is much higher across the VIP/non-VIP axis than across GO categories. We can therefore conclude that the variation in adaptive evolution is mostly due to differences between GO categories.
-
 
 <br />
 
