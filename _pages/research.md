@@ -22,6 +22,7 @@ genomic localities, but the overall frequency ofbalancing selection has yet to b
 by identifying polymorphisms shared between two species. These studies have utilised the fact that two speciesare extremely unlikely to share a neutral polymorphism (i.e. they 
 are sufficiently divergent that all polymorphism that waspresent in the ancestor of the two species will have gone to fixation in at least one of the species). This makes these 
 tests weak because balancing selection must persist for a long time. <br />
+
 Together with our collaborator Michiel Vos at the University of Exeter, we present a simple solution that 
 allows one to use closely related species or populations. Neutral polymorphisms are used to inform us as to what to expect 
 under neutrality by comparing the number of polymorphisms shared between two populations, at putatively functional sites with those at putatively neutral sites. 
@@ -61,7 +62,7 @@ Although the correlation between gene age and rates of adaptive evolution is sig
 Going very much hand in hand with the gene ages project discussed above, we have looked at various gene level and site level factors affecting the rate of adaptive evolution in humans. Although this project spans many different factors, here I will briefly describe some of our work in estimating rates of adaptive evolution across GO categories. Following Enard et. al (eLife, 2016), we compared the rates of adaptive evolution betweeen virus-interacting proteins (VIPs) and non-VIPs. Enard et al. found that the vast majority of adaptive evolution in humans is due to VIPs, but as figure 4 shows, we find adaptive evolution occuring both in VIPs and non-VIPs.
 
  <figure>
-  <img src="https://vivaksoni.github.io/_pages/vips/png" alt="VIPs" style="width:100%">
+  <img src="https://vivaksoni.github.io/_pages/vips.png" alt="VIPs" style="width:100%">
   <figcaption>Fig.4 - Comparison of α estimates between VIPs and non-VIPs for each GO category.</figcaption>
 </figure> 
 
