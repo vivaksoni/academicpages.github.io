@@ -34,6 +34,7 @@ Through simulations we have proven that our statistic has power to detect balanc
 
 We have applied this statistic to human population genetic data taken from the 1000 genome project. We simulated under the Gravel et. al (PNAS, 2011) to generate our null model, and compared this to our observed data. Although we detect balancing selection at low frequencies within humans, the evidence is weak due to the confounding effects of human demographic history because population contraction (for instance via bottlenecks) depresses our statistic. Nature can be 
 frustrating at times!
+<br />
 
 <h3>Does the age of a protein-coding gene constrain its evolution?</h3>
 
@@ -48,8 +49,29 @@ In this project we have correlated the rate of adaptive evolution with various g
 
  <figure>
   <img src="https://vivaksoni.github.io/_pages/geneAges.PNG" alt="geneAges" style="width:100%">
-  <figcaption>Fig.3 - Relationship between the rate of protein evolution (ω), non-adaptive non-synonymous substitutions (ωNA), and adaptive non-synonymous substitutions (ωA) and log (gene age). Error bars denote for the 95% confidence interval for each category, computed over 100 bootstrap replicates. Though it doesn't look like it, the correlation between the rate of adaptive evolution and gene age is significant, with a τ value of -0.4, obtained using a Kendall's rank correltion.</figcaption>
+  <figcaption>Fig.3 - Relationship between the rate of protein evolution (ω), non-adaptive non-synonymous substitutions (ωNA), and adaptive non-synonymous substitutions (ωA) and log (gene age). Error bars denote for the 95% confidence interval for each category, computed over 100 bootstrap replicates. We see a surprisingly high correlation between gene ages and rates of non-adaptive evolution. Though it doesn't look like it, the correlation between the rate of adaptive evolution and gene age is significant, with a τ value of -0.4, obtained using a Kendall's rank correltion.</figcaption>
 </figure> 
 
-Although the correlation between gene age and rates of adaptive evolution is significant, we find that this correlation disappears when we account for confounding factors.
+Although the correlation between gene age and rates of adaptive evolution is significant, we find that this correlation disappears when we account for confounding factors. We are working on some theory to understand the extent to which these estimates of adaptive evolution in humans are confounded by the population contraction from the human-chimp ancestor to the present day.
+
+<br />
+
+<h3>Gene-level and site-level factors affecting the rate of adaptive evolution in humans</h3>
+
+Going very much hand in hand with the gene ages project discussed above, we have looked at various gene level and site level factors affecting the rate of adaptive evolution in humans. Although this project spans many different factors, here I will briefly describe some of our work in estimating rates of adaptive evolution across GO categories. Following Enard et. al (eLife, 2016), we compared the rates of adaptive evolution betweeen virus-interacting proteins (VIPs) and non-VIPs. Enard et al. found that the vast majority of adaptive evolution in humans is due to VIPs, but as figure 4 shows, we find adaptive evolution occuring both in VIPs and non-VIPs.
+
+ <figure>
+  <img src="https://vivaksoni.github.io/_pages/vips/png" alt="VIPs" style="width:100%">
+  <figcaption>Fig.4 - Comparison of α estimates between VIPs and non-VIPs for each GO category.</figcaption>
+</figure> 
+
+To resolve whether the variation we see in rates of adaptive evolution between GO categories is mostly along the VIP/non-VIP axis we can estimate the error variance across both axes (VIP/nonVIP and each GO category). For each VIP and non-VIP GO category we randomly assigned polymorphisms and substitutions to two groups. We estimated the rate of adaptive evolution for each of these four groups: VIP group 1; VIP group 2; non-VIP group 1; and non-VIP group 2 and estimated the error variance both with and without the interaction term. In both instances the error is much higher across the VIP/non-VIP axis than across GO categories. We can therefore conclude that the variation in adaptive evolution is mostly due to differences between GO categories.
+
+
+<br />
+
+<h3>Quantifying the variation in the effective population size across the human genome</h3>
+
+This is a project that is still in its infancy, and so I will just outline its remit. To estimate the distribution of the effective population size, Ne, across the genome we have two sources of information, the number of de novo mutations (DNMs), and the number of single nucleotide polymorphisms (SNPs), both of which are estimated across genomic windows of specific length. The number of DNMs per window just depends upon the mutation rate whereas the number of SNPs per window depends upon the mutation rate, the effective population size (Ne) and the length of the genealogy. If there is free recombination then every site has a different genealogy and with enough sites, this source of variance can be ignored. However, if there is limited recombination then this source of variation can be large. Here we are attempting to quantify this variation. We will model the distribution of rates by fitting a distribution to our DNM data. We will then fit a distribution to our SNP data and look to infer the parameters of the distribution of Ne with or without free recombination.
+
 
