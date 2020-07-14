@@ -21,9 +21,9 @@ please do get in touch if you'd like further information about my research.
 <h3>A new method to detect balancing selection</h3>
  
 The role that balancing selection plays in the maintenance of genetic variation remains unknown. In humans,the signature of balancing selection has been detected at various 
-genomic localities, but the overall frequency ofbalancing selection has yet to be quantified. Recent studies have identified loci under long term balancing selection in primates
-by identifying polymorphisms shared between two species. These studies have utilised the fact that two speciesare extremely unlikely to share a neutral polymorphism (i.e. they 
-are sufficiently divergent that all polymorphism that waspresent in the ancestor of the two species will have gone to fixation in at least one of the species). This makes these 
+genomic localities, but the overall frequency of balancing selection has yet to be quantified. Recent studies have identified loci under long term balancing selection in primates
+by identifying polymorphisms shared between two species. These studies have utilised the fact that two species are extremely unlikely to share a neutral polymorphism (i.e. they 
+are sufficiently divergent that all polymorphism that was present in the ancestor of the two species will have gone to fixation in at least one of the species). This makes these 
 tests weak because balancing selection must persist for a long time. <br />
 
 Together with our collaborator Michiel Vos at the University of Exeter, we present a simple solution that 
