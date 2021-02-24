@@ -18,7 +18,7 @@ please do get in touch if you'd like further information about my research.
 
 <br />
 
-<h3>A new method to detect balancing selection</h3>
+<h3>A new test suggests that balancing selection maintains hundreds of non-synonymous polymorphisms in the human genome</h3>
  
 The role that balancing selection plays in the maintenance of genetic variation remains unknown. In humans,the signature of balancing selection has been detected at various 
 genomic localities, but the overall frequency of balancing selection has yet to be quantified. Recent studies have identified loci under long term balancing selection in primates
@@ -36,7 +36,7 @@ Through simulations we have proven that our statistic has power to detect balanc
   <figcaption>Figure 1: Stationary population size simulations implemented in SLiM, in which the ancestral population is duplicated to form two daughter populations of the same size to each other and the ancestor. The time to the most recent common ancestor (tMRCA) is measured in N generations. A Z value of greater than 1 indicates a greater proportion of shared non-synonymous polymorphisms than private non-synonymous polymorphism, which is a signal of balancing selection. For b-c) private polymorphisms have been binned by minor allele frequency, in bins of size 0.1.  a) - simulations of neutral genetic variation only; a) – orange & b) neutral and deleterious variation; a) – green & c) neutral, deleterious and balanced polymorphisms.</figcaption>
 </figure> 
 
- We apply our method to population genomic data from humans and conclude that more than a thousand non-synonymous polymorphisms are subject to balancing selection.
+ We apply our method to population genomic data from humans and conclude that more than a thousand non-synonymous polymorphisms are subject to balancing selection. The pre-print for this paper is available on biorxiv: https://www.biorxiv.org/content/10.1101/2021.02.08.430226v1. 
 
 <br />
 
