@@ -7,7 +7,7 @@ we now have at our disposal. Principally I am a bioinformatician, attempting to 
 
 The fundamental forces of evolution are mutation, genetic drift, gene flow and natural selection. Under the supervision of Adam Eyre-Walker at the University of Sussex, 
 I have primarily focussed on developing and utilising methods to detect natural selection in humans using DNA sequence data. I am coming towards the end of what has been an
-incredibly rewarding time at Sussex and am on the lookout for post-doc positions in suitable labs. Pre-prints and publications will be available soon.
+incredibly rewarding time at Sussex and will be moving to Arizona to join the Jensen Lab at ASU, under the supervision of Jeff Jensen. Pre-prints and publications will be available soon.
 
 <br />
 
@@ -33,11 +33,10 @@ Through simulations we have proven that our statistic has power to detect balanc
 
  <figure>
   <img src="https://vivaksoni.github.io/_pages/Z.png" alt="Z" style="width:100%">
-  <figcaption>Fig 1: Stationary population size simulations, in which the ancestral population is duplicated to form two daughter populations of the same size to each other and the ancestor. Each simulation was repeated 2 million times. The time to the most recent common ancestor (tMRCA) is measured in N generations, where N is the population size. A Z value of greater than 1 indicates a greater proportion of shared non-synonymous polymorphisms than private non-synonymous polymorphism, which is a signal of balancing selection. For b-c) private polymorphisms have been binned by minor allele frequency, in bins of size 0.1.  a) - simulations of neutral genetic variation only; a) – orange & b) neutral and deleterious variation; a) – green & c) neutral, deleterious and balanced polymorphisms.</figcaption>
+  <figcaption>Figure 1: Stationary population size simulations implemented in SLiM, in which the ancestral population is duplicated to form two daughter populations of the same size to each other and the ancestor. The time to the most recent common ancestor (tMRCA) is measured in N generations. A Z value of greater than 1 indicates a greater proportion of shared non-synonymous polymorphisms than private non-synonymous polymorphism, which is a signal of balancing selection. For b-c) private polymorphisms have been binned by minor allele frequency, in bins of size 0.1.  a) - simulations of neutral genetic variation only; a) – orange & b) neutral and deleterious variation; a) – green & c) neutral, deleterious and balanced polymorphisms.</figcaption>
 </figure> 
 
-We have applied this statistic to human population genetic data taken from the 1000 genome project. We simulated under the Gravel et. al (PNAS, 2011) to generate our null model, and compared this to our observed data. Although we detect balancing selection at low frequencies within humans, the evidence is weak due to the confounding effects of human demographic history because population contraction (for instance via bottlenecks) depresses our statistic. Nature can be 
-frustrating at times!
+ We apply our method to population genomic data from humans and conclude that more than a thousand non-synonymous polymorphisms are subject to balancing selection.
 
 <br />
 
